@@ -9,7 +9,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);//Apaga Digito Derecho
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[0]); 
-                                                //d_delay += DELAY;
                                             }
                                         if (BankMSB_LSB>=10 && BankMSB_LSB<=19)
                                             {
@@ -17,7 +16,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[1]); 
-                                                //d_delay += DELAY;
                                             }
 
                                         if (BankMSB_LSB>=20 && BankMSB_LSB<=29)
@@ -26,7 +24,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[2]); 
-                                                //d_delay += DELAY;
                                             }
 
                                         if (BankMSB_LSB>=30 && BankMSB_LSB<=39)
@@ -35,7 +32,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[3]);
-                                                //d_delay += DELAY;
                                             }
 
 
@@ -45,7 +41,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[4]);
-                                                //d_delay += DELAY;
                                             }
                                         if (BankMSB_LSB>=50 && BankMSB_LSB<=59)
                                             {
@@ -53,7 +48,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[5]); 
-                                                //d_delay += DELAY;
                                             }
                                         if (BankMSB_LSB>=60 && BankMSB_LSB<=69)
                                             {
@@ -61,7 +55,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[6]);
-                                                //d_delay += DELAY;
                                             }
 
                                         if (BankMSB_LSB>=70 && BankMSB_LSB<=79)
@@ -70,7 +63,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[7]);
-                                                //d_delay += DELAY;
                                             }
 
                                         if (BankMSB_LSB>=80 && BankMSB_LSB<=89)
@@ -79,7 +71,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[8]);
-                                                //d_delay += DELAY;
                                             }
 
 
@@ -89,7 +80,6 @@ void Display7S()
                                                 digitalWrite(SW2, LOW);
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[9]);
-                                                //d_delay += DELAY;
                                             }
 
                                        d_delay += DELAY;
