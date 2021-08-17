@@ -9,7 +9,7 @@ Ejemplo de funcionamiento de un integrado 74HC164.
 
 - Previamente debera tener instaladas las bibliotecas Bounce2, para esto dirijirse a Arduino IDE "Herramientas -> Administrar Bibliotecas..." y buscarla.
 
--Regule el valor de `int DELAY = 10;`a su gusto en la pestaña "Void_Display7S"
+-Regule el valor de `int DELAY = 10;`a su gusto en la pestaña "Void_Display7S" (regula el tiempo en ms entre el apagado de un digito y el otro, debe ser lo suficientemente pequeño para que a los ojos humanos no se note el cambio)
 
 Para simulación:
 - Descargue la ultima versión de SimulIDE que posee soporte para Arduino: https://www.simulide.com/p/downloads.html
