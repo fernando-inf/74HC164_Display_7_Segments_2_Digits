@@ -1,12 +1,11 @@
-#include <Bounce.h>
+#include <Bounce2.h>//Instalar Libreria Bounce2
 
-#define buttonPin7 7
-Bounce buttonPin7_upBank =  Bounce(buttonPin7, 100);
+Bounce2::Button buttonPin7_upBank = Bounce2::Button();
 
  void button1()
                 {
                   buttonPin7_upBank.update();
-                  if (buttonPin7_upBank.fallingEdge()) 
+                  if (buttonPin7_upBank.pressed()) 
                         {
                           BankMSB_LSB++; // Incrementa el cambio de Banco
                           if (BankMSB_LSB > 99) BankMSB_LSB = 0; 

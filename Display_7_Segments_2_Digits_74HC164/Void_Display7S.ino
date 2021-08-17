@@ -10,6 +10,7 @@ void Display7S()
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[0]); 
                                             }
+                                            
                                         if (BankMSB_LSB>=10 && BankMSB_LSB<=19)
                                             {
                                                 digitalWrite(SW1, HIGH); 
@@ -17,7 +18,7 @@ void Display7S()
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[1]); 
                                             }
-
+                                            
                                         if (BankMSB_LSB>=20 && BankMSB_LSB<=29)
                                             {
                                                 digitalWrite(SW1, HIGH); 
@@ -34,7 +35,6 @@ void Display7S()
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[3]);
                                             }
 
-
                                         if (BankMSB_LSB>=40 && BankMSB_LSB<=49)
                                             {
                                                 digitalWrite(SW1, HIGH);
@@ -42,6 +42,7 @@ void Display7S()
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[4]);
                                             }
+                                            
                                         if (BankMSB_LSB>=50 && BankMSB_LSB<=59)
                                             {
                                                 digitalWrite(SW1, HIGH);
@@ -49,6 +50,7 @@ void Display7S()
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[5]); 
                                             }
+                                            
                                         if (BankMSB_LSB>=60 && BankMSB_LSB<=69)
                                             {
                                                 digitalWrite(SW1, HIGH); 
@@ -72,8 +74,7 @@ void Display7S()
                                                 
                                                 shiftOut(DATA, CLOCK, LSBFIRST, num[8]);
                                             }
-
-
+                                            
                                         if (BankMSB_LSB>=90 && BankMSB_LSB<=99)
                                             {
                                                 digitalWrite(SW1, HIGH);
