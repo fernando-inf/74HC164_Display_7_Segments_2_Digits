@@ -4,7 +4,11 @@ https://www.gnu.org/
 # 74HC164 whit Display 7 Segments - 2 Digits
 Ejemplo de funcionamiento de un integrado 74HC164.
 # Funcionamiento
+
 -Abrir el archivo Display_7_Segments_2_Digits_74HC164.ino (que se encuentra en la carpeta principal del proyecto) con Arduino IDE y cargarlo en su placa.
+
+- Previamente debera tener instaladas las bibliotecas Bounce2, para esto dirijirse a Arduino IDE "Herramientas -> Administrar Bibliotecas..." y buscarla.
+
 -Regule el valor de `int DELAY = 10;`a su gusto en la pestaña "Void_Display7S"
 
 Para simulación:
