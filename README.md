@@ -1,2 +1,29 @@
-# 74HC164_Display_7_Segments_2_Digits
-74HC164 whit Display 7 Segments - 2 Digits
+# FREE SOFTWARE - FREE WORLD - Try GNU / Linux  is FREE.
+https://www.gnu.org/
+
+# 74HC164 whit Display 7 Segments - 2 Digits
+Ejemplo de funcionamiento de un integrado 74HC164.
+# Funcionamiento
+-Abrir el archivo Display_7_Segments_2_Digits_74HC164.ino (que se encuentra en la carpeta principal del proyecto) con Arduino IDE y cargarlo en su placa.
+
+Para simulación:
+- Descargue la ultima versiòn de SimulIDE que posee soporte para Arduino: https://www.simulide.com/p/downloads.html
+- Abrir el archivo cn extensiòn "simu" que se encuentra en la carpeta principal del proyecto.
+- De no iniciar la simulaciòn: Click derecho sobre la placa Arduino y seleccionar cualquiera de los archivos con extensiòn HEX que se encuentran en la carpeta principal del proyecto. 
+
+- Pulse el Pulsador pra avanzar en la numeraciión. A este ejemplo de código se le puede dar una aplicación con señales MIDI mediante la cual el avance numerico representa el Cambio de Banco o Presets.
+
+<img src="https://raw.githubusercontent.com/fernando-inf/74HC164_Display_7_Segments_2_Digits/main/Display_7_Segments_2_Digits_74HC164/SIMULIDE-Display_7_Segments_2_Digits_74HC164.png" width="100%"></img> 
+
+# Reciclaje
+- Se pueden reciclar estos componentes de una Home Theater, de hecho este ejemplo surgio apartir de una placa de esos equipos:
+
+<img src="https://raw.githubusercontent.com/fernando-inf/74HC164_Display_7_Segments_2_Digits/main/Display_7_Segments_2_Digits_74HC164/74HC164_Home_Theater-1.JPG" width="100%"></img> 
+
+
+<img src="https://raw.githubusercontent.com/fernando-inf/74HC164_Display_7_Segments_2_Digits/main/Display_7_Segments_2_Digits_74HC164/74HC164_Home_Theater-2.JPG" width="100%"></img> 
+
+fernando-inf@hotmail.com
+
+2021 @CopyLeft
+
