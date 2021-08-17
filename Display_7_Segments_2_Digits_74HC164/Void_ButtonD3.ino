@@ -1,4 +1,4 @@
-#include <Bounce.h>//https://github.com/mpflaga/Arduino-Bounce
+#include <Bounce.h>
 
 #define buttonPin7 7
 Bounce buttonPin7_upBank =  Bounce(buttonPin7, 100);
