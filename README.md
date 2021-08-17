@@ -5,6 +5,7 @@ https://www.gnu.org/
 Ejemplo de funcionamiento de un integrado 74HC164.
 # Funcionamiento
 -Abrir el archivo Display_7_Segments_2_Digits_74HC164.ino (que se encuentra en la carpeta principal del proyecto) con Arduino IDE y cargarlo en su placa.
+-Regule el valor de `int DELAY = 10;`a su gusto en la pestaña "Void_Display7S"
 
 Para simulación:
 - Descargue la ultima versión de SimulIDE que posee soporte para Arduino: https://www.simulide.com/p/downloads.html
