@@ -1,3 +1,5 @@
+//https://www.arduino.cc/reference/es/language/functions/advanced-io/shiftout/
+
 int DELAY = 10;
 uint32_t d_delay = DELAY;
 
@@ -8,7 +10,7 @@ void Display7S()
                                                 digitalWrite(SW1, HIGH); //Enciende Digito Izquierdo
                                                 digitalWrite(SW2, LOW);//Apaga Digito Derecho
                                                 
-                                                shiftOut(DATA, CLOCK, LSBFIRST, num[0]); 
+                                                shiftOut(DATA, CLOCK, LSBFIRST, num[0]); //shiftOut(dataPin, clockPin, bitOrder, value)
                                             }
                                             
                                         if (BankMSB_LSB>=10 && BankMSB_LSB<=19)
